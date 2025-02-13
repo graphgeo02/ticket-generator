@@ -1,0 +1,191 @@
+ .progress-bar{
+    width: 100%;
+    height: 10px;
+    background: #0E464F;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.progress-bar-fill{
+    width: 66.666%;
+    height: 100%;
+    background: #24A0B5;
+    transition: width 0.5s ease-in-out;
+}
+
+.sub-1 > p{
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+    font-family: inherit;
+    color: var(--color-grey-98, #FAFAFA);
+
+    }
+
+.sub-1{
+    width: 556px;
+    height: 344px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 24px;
+    gap: 32px;
+    border: 1px solid #07373F;
+    background: #052228;
+
+}
+
+.sub-2{
+width: 508px;
+height: 240px;
+gap: 10px;
+margin-top: 3rem;
+background-image: url(../../assets/attendeeimages/cloud.png);
+
+
+}
+.divider{
+    margin-bottom: 1.5rem;
+}
+input[type='text'],input[type='email']{
+    width: 556px;
+height: 48px;
+border-radius: 10px;
+border-width: 1px;
+border: 1px solid #07373F;
+background: #08252B;
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+}
+/* input[type='email']{
+
+} */
+.card-2{
+    width: 700px;
+    /* height: 902px; */
+    border-radius: 40px;
+    border-width: 1px;
+    padding: 48px;
+    border: 1px solid white;
+    background: #041e23;
+    border: 1px solid #0e464f;
+    margin: 20px auto;
+}
+.attend-card{
+    width: 700px;
+    height: 1099px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 48px;
+    gap: 32px;
+    border: 1px solid red;
+
+}
+label{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--color-grey-98, #FAFAFA);
+
+}
+textarea{
+    width: 556px;
+height: 127px;
+border-radius: Radius/reg 2;
+border-width: 1px;
+padding: Radius/reg 2;
+gap: Radius/reg;
+border: 1px solid #0E464F;
+background: #08252B;
+margin-top: 0.5rem;
+border-radius: 10px;
+}
+
+.attendee-button{
+    margin-top: 1rem;
+    /* width: 556px;
+height: 48px; */
+gap: 20px;
+display: flex;
+
+}
+
+.attendee-button .back{
+    width: 270px;
+height: 48px;
+border-radius: 5px;
+border-width: 1px;
+padding-top: Radius/reg 2;
+padding-right: Radius/semi;
+padding-bottom: Radius/reg 2;
+padding-left: Radius/semi;
+border: 1px solid #24A0B5;
+font-family: JejuMyeongjo;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+background: transparent;
+color: #24A0B5;
+cursor: pointer;
+}
+.attendee-button .free-ticket{
+    width: 270px;
+    height: 48px;
+    border-radius: 5px;
+    gap: 8px;
+    padding-top: Radius/reg 2;
+    padding-right: Radius/semi;
+    padding-bottom: Radius/reg 2;
+    padding-left: Radius/semi;
+    font-family: JejuMyeongjo;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #FFFFFF;
+background: #24A0B5;
+border: 1px solid #24A0B5;
+cursor: pointer;
+}
+#url{
+    width: 100%;
+}
+
+/*.sub-feature1{
+width: 556px;
+height: 344px;
+border-radius: 24px;
+border-width: 1px;
+padding: 24px;
+gap: 32px;
+
+}
+.sub-feature1 > p{
+text-align: left;
+margin-left: -5rem;
+margin-top: -0.5rem;
+font-family: inherit;
+}
+
+.sub-feature2{
+    width: 508px;
+height: 240px;
+border: unset;
+border-radius: unset;
+margin-top: 3rem;
+background-image: url(../../assets/attendeeimages/cloud.png);
+
+}
+.select-ticket{
+    margin-top: 1rem;
+    margin-bottom: -5rem;
+}
+.next{
+    border-radius: 5px;
+    border: inherit;
+    outline: none;
+    background: #08252B;
+    margin-top: 0.5rem;
+} */
