@@ -6,10 +6,36 @@
   box-sizing: border-box;
 }
 
-/* 
+
 
 @media screen and (max-width: 500px){
   .main-container{
-    margin-left: -30rem;
+    max-width: fit-content;
   }
-  } */
+  } 
+
+
+
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .main-container{
+      width: 50vw;
+
+    }
+    nav ul{
+      width: 100px;
+    }
+    .card{
+      margin-left: -15rem;
+      margin-right: -100rem;
+      max-height: fit-content;
+    }
+    .card-1, .card-2, .card-3{
+      min-height: fit-content;
+    }
+    body{
+      overflow-x: hidden;
+    }
+}
