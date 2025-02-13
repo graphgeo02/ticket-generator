@@ -21,7 +21,7 @@ const Nav = () => {
           {/* <Link to="/attendee-details">attendee</Link> */}
         </li>
         <li className="tickets-right">
-          <Link to="/my-tickets" >My Tickets < img src={Line} alt="arrow"/></Link>
+          <Link to="/events" >My Tickets < img src={Line} alt="arrow"/></Link>
         </li>
       </ul>
     </nav>
