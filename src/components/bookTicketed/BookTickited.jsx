@@ -30,7 +30,10 @@ const BookTickited = () => {
         </div>
         <div className="ticket-container">
           {avatarUrl && <img src={avatarUrl} alt="Avatar" className="avatar-image" 
-          //  onError={(e) => { e.target.src = '/path/to/default-avatar.png'; }}
+           onError={(e) => { e.target.src = '/path/to/default-avatar.png'; 
+            e.target.onerror = null;
+           }}
+           
            />}
                <div className="event-content">
                 <p className='event-title'>Techember <br/>Fest "25</p> 
