@@ -1,4 +1,4 @@
-.progress-bar{
+.progress-bar3{
     width: 100%;
     height: 10px;
     background: #0E464F;
@@ -6,7 +6,7 @@
     overflow: hidden;
     margin-bottom: 1rem;
 }
-.progress-bar-fill{
+.progress-bar-fill3{
     width: 100%;
     height: 100%;
     background: #24A0B5;
@@ -16,8 +16,8 @@
 .card-3{
     /* width: 700px;
     height: 902px; */
-    width: 700px;
-height: 624px;
+    width: 43.75rem;
+height: 39rem;
 border-radius: 24px;
 border-width: 1px;
 padding: 48px;
@@ -36,7 +36,7 @@ gap: 32px;
 .book-title{
 font-family: 'Alatsi';
 font-weight: 400;
-font-size: 32px;
+font-size: 2rem;
 line-height: 40.96px;
 letter-spacing: 0%;
 text-align: center;
@@ -56,8 +56,8 @@ margin-top: 1rem;
 }
 
 .ticket-container{
-width: 604px;
-height: 263px;
+width: 37.75rem;
+height: 16.4375rem;
 border-radius: 24px;
 gap: 10px;
 padding-top: 32px;
@@ -65,31 +65,36 @@ padding-right: 21px;
 padding-bottom: 32px;
 padding-left: 21px;
 background: transparent;
-background-image: url(../../assets/ticketsimages/Ticket1.png);
+background-image: url('../../assets/ticketsimages/TechemberFest25.png' );
 background-repeat: no-repeat;
 background-size: contain;
 aspect-ratio: 16 / 9;
 margin-top: 4rem;
+
 }
 .ticket-container .person-names{
   color: #fff;
   
   font-size: 1rem;
-  position: absolute;
+  position: relative;
   font-weight: bold;
   font-family: 'roboto';
-  bottom: 51.5%;
+  bottom: 70%;
 }
 
 .event-content{
   position: relative;
   left: 1rem;
   bottom: 8rem;
+  z-index: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: normal;
 }
 .event-title{
   font-family: 'Road Rage';
   font-weight: 400;
-  font-size: 62px;
+  font-size: 3.875rem;
   /* line-height: 62px; */
   letter-spacing: 0%;
   text-align: center;
@@ -108,14 +113,14 @@ margin-top: 4rem;
   text-align: center;
 }
 .booked-button{
-    width: 604px;
-    height: 48px;
+    width: 37.75rem;
+    height: 3rem;
     border-radius: 30px;
     border-width: 1px;
     /* padding: 48px; */
     background: #041E23;
     border: 1px solid #0E464F;
-    margin-top: 2rem ;
+    /* margin-top: 2rem ; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -123,8 +128,8 @@ margin-top: 4rem;
 }
 
 .book-another{
-    width: 214px;
-  height: 48px;
+    width: 13.375rem;
+  height: 3rem;
   border-radius: 5px;
   gap: 8px;
   /* padding-top: Radius/reg 2;
@@ -135,7 +140,7 @@ margin-top: 4rem;
   color: #24A0B5;
   font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
+font-size: 1rem;
 line-height: 24px;
 letter-spacing: 0%;
 border: 1px solid #24A0B5;
@@ -143,8 +148,8 @@ cursor: pointer;
 }
 
 .download{
-    width: 214px;
-  height: 48px;
+    width: 13.375rem;
+  height: 3rem;
   border-radius: 5px;
   gap: 8px;
   /* padding-top: Radius/reg 2;
@@ -155,7 +160,7 @@ cursor: pointer;
   color: #fff;
   font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
+font-size: 1rem;
 line-height: 24px;
 letter-spacing: 0%;
 border: 1px solid #24A0B5;
@@ -168,6 +173,15 @@ cursor: pointer;
 
 
 
+.avatar-image {
+  max-width: 150px;  /* Maximum width to prevent large images */
+  max-height: 100px; /* Maximum height */
+  min-width: 50px;   /* Minimum width for consistency */
+  min-height: 50px;  /* Minimum height */
+  border-radius: 5%; /* Optional: makes the image circular */
+  object-fit: cover; /* Ensures the image doesn't distort */
+  border: 2px solid #ccc; /* Optional: adds a border around the image */
+}
 
 
 
@@ -187,68 +201,3 @@ cursor: pointer;
 
 
 
-/* .ticket-container {
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 8px;
-    background: #f9f9f9;
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .ticket-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .ticket-subtitle {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .ticket-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .avatar-container {
-    flex-shrink: 0;
-  }
-  
-  .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
-  }
-  
-  .attendee-details p {
-    margin: 5px 0;
-    font-size: 1rem;
-  }
-  
-  .booked-button {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .book-another,
-  .download {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .book-another:hover,
-  .download:hover {
-    background: #45a049;
-  }
-   */

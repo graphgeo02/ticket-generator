@@ -68,8 +68,8 @@ const AttendeeDetails = () => {
           <h1>Attendee Details</h1>
           <p className="step">Step <span className="step"><strong className="levels">2</strong>/3</span></p>
         </div>
-        <div className="progress-bar">
-          <div className="progress-bar-fill"></div>
+        <div className="progress-bar2">
+          <div className="progress-bar-fill2"></div>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="feature">
@@ -89,7 +89,11 @@ const AttendeeDetails = () => {
               {isValidImage && (
                 <div className="image-preview">
                   <p>Image Preview:</p>
-                  <img src={formData.avatarUrl} alt="Avatar Preview" className="avatar-preview" />
+                  <img src={formData.avatarUrl} alt="Avatar Preview" className="avatar-preview" 
+                   onError={(e) => { 
+                    e.target.src = '/path/to/default-avatar.png'; 
+                  }}
+                  />
                 </div>
               )}
             </div>

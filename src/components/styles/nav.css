@@ -13,6 +13,7 @@ nav ul {
     width: 100%;
     gap: 0rem; */
   width: 1200px;
+
   height: 76px;
   border-radius: 24px;
   border-width: 1px;
@@ -122,7 +123,12 @@ height: 34px; */
 @media screen and (max-width: 500px){
   nav ul{
     display: flex;
-    /* justify-content: space-around; */
-    min-width: 100vw;
-  }
+    justify-content: space-evenly;
+  padding-right: unset;
+  /* width: unset; */
+}
+
+.group-middle{
+  display: none;
+}
 }

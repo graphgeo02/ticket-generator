@@ -1,10 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../styles/nav.css'
 import Thumb from '../../assets/logoimages/thumb.png'
 import Ticz from '../../assets/logoimages/ticz.png'
 import Line from '../../assets/logoimages/Line.png'
+
 const Nav = () => {
+ 
   return (
     <nav className="nav">
       <ul>
@@ -19,7 +21,7 @@ const Nav = () => {
           {/* <Link to="/attendee-details">attendee</Link> */}
         </li>
         <li className="tickets-right">
-          <Link to="/my-tickets">My Tickets < img src={Line} alt="arrow"/></Link>
+          <Link to="/my-tickets" >My Tickets < img src={Line} alt="arrow"/></Link>
         </li>
       </ul>
     </nav>

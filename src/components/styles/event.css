@@ -16,11 +16,11 @@
 .card {
   /* flex: 1; */
   grid-column: span 1;
-  width: 700px;
+  width: 43.75rem;
   /* height: 902px; */
   border-radius: 40px;
   border-width: 1px;
-  padding: 48px;
+  padding: 3rem;
   border: 1px solid white;
   background: #041e23;
   border: 1px solid #0e464f;
@@ -43,7 +43,7 @@
 }
 input[type='range']{
     width: 100%;
-height: 4;
+height: 4px;
 border-radius: 5px;
 color: #0E464F;
 
@@ -54,8 +54,8 @@ color: #0E464F;
     color: #fff;
 font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 32px;
-line-height: 32px;
+font-size: 2rem;
+line-height: 2rem;
 letter-spacing: 0%;
 margin-bottom: 1rem;
 }
@@ -63,8 +63,8 @@ margin-bottom: 1rem;
 .inline .step{
     font-family: Roboto;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 color: var(--color-grey-98, #FAFAFA);
 
@@ -87,7 +87,7 @@ color: var(--color-grey-98, #FAFAFA);
 
 
 .feature{
-width: 604px;
+width: 37.76rem;
 /* height: 726px; */
 border-radius: 32px;
 border-width: 1px;
@@ -97,8 +97,8 @@ background: #08252B;
 border: 1px solid #0E464F;
 }
 .sub-feature1{
-width: 556px;
-height: 200px;
+width: 34.75rem;
+height: 12.5rem;
 border-radius: 24px;
 gap: 8px;
 padding: 24px;
@@ -121,8 +121,8 @@ backdrop-filter: blur(14px)
     
 font-family: 'Road Rage';
 font-weight: 400;
-font-size: 62px;
-line-height: 62px;
+font-size: 3.875rem;
+line-height: 3.875rem;
 letter-spacing: 0%;
 text-align: center;
 color: var(--color-grey-98, #FAFAFA);
@@ -133,12 +133,12 @@ margin-bottom: 0.8rem;
 position: absolute;
 top: inherit;
 left: 6rem;
- width: 340px;
-height: 48px;
+ width: 21.25rem;
+height: 3rem;
 font-family: Roboto;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 text-align: center;
 color: var(--color-grey-98, #FAFAFA);
@@ -147,8 +147,8 @@ color: var(--color-grey-98, #FAFAFA);
 .sub-feature1 .location-time{
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0%;
     color: var(--color-grey-98, #FAFAFA);
     margin-top: 3.5rem;
@@ -156,7 +156,7 @@ color: var(--color-grey-98, #FAFAFA);
 }
 
 .divider{
-  width: 556px;
+  width: 34.75rem;
   height: 4px;
   background: #07373F;
   margin-top: 2rem;
@@ -165,18 +165,18 @@ color: var(--color-grey-98, #FAFAFA);
   color: var(--color-grey-98, #FAFAFA);
 font-family: 'Roboto';
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 margin-top: 2rem;
 margin-bottom: 0.5rem;
 }
 .sub-feature2{
-  width: 556px;
-height: 186px;
+  width: 34.75rem;
+height: 11.625rem;
 border-radius: 24px;
 border-width: 1px;
-padding: 16px;
+padding: 1rem;
 gap: 16px;
 background: #052228;
 border: 1px solid #07373F;
@@ -189,8 +189,8 @@ border: 1px solid #07373F;
   gap: 20px; 
 }
  .box{
-width: 242px;
-height: 65px;
+width: 15.125rem;
+height: 4.06rem;
 border-radius: 8px;
 border-width: 1px;
 padding: 8px;
@@ -201,8 +201,8 @@ border: 1px solid #07373F;
 
 }
 .box{
-width: 242px;
-height: 65px;
+width: 15.125rem;
+height: 4.0625rem;
 border-radius: Radius/reg 2;
 border-width: 1px;
 padding: 8px;
@@ -212,8 +212,8 @@ border-radius: 8px;
 }
 
 .box{
-width: 242px;
-height: 65px;
+width: 15.125rem;
+height: 4.06rem;
 border-radius: Radius/reg 2;
 border-width: 1px;
 padding: 8px;
@@ -224,13 +224,13 @@ border-radius: 8px;
 
 .cards{
   border: 1px solid #197686;
-  background: #197686;
+  /* background: #197686; */
   p{
     color: var(--color-grey-98, #FAFAFA);
     font-family: 'Roboto';
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 text-transform: uppercase;
   }
@@ -248,8 +248,8 @@ text-transform: uppercase;
      bottom: 3rem;
     transform: translateX(80%);
     border: 1px solid #2BA4B9;
-    width: 80px;
-  height: 38px;
+    width: 5rem;
+  height: 2.375rem;
   border-radius: Radius/reg;
   border-width: 1px;
   padding: px;
@@ -265,8 +265,8 @@ text-transform: uppercase;
     color: var(--color-grey-98, #FAFAFA);
     font-family: 'Roboto';
 font-weight: 600;
-font-size: 20px;
-line-height: 22px;
+font-size: 1.25rem;
+line-height: 1.375rem;
 letter-spacing: 0%;
 border-radius: 5px;
 
@@ -277,8 +277,8 @@ border-radius: 5px;
   background: unset;
 }
 select{
-  width: 556px;
-height: 48px;
+  width: 34.75rem;
+height: 3rem;
 border-radius:  10px;
 border-width: 1px;
 border: 1px solid #07373F;
@@ -301,13 +301,13 @@ padding-left: 1rem;
   color: var(--color-grey-98, #FAFAFA);
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0%;
 }
 .next{
-width: 556px;
-height: 48px;
+width: 34.75rem;
+height: 3rem;
 border-radius: 30px;
 border-width: 1px;
 /* padding: 48px; */
@@ -321,8 +321,8 @@ vertical-align: middle;
 }
 
 .next .cancel{
-  width: 214px;
-  height: 48px;
+  width: 15.0625rem;
+  height: 3rem;
   border-radius: 5px;
   gap: 8px;
   /* padding-top: Radius/reg 2;
@@ -333,16 +333,16 @@ vertical-align: middle;
   color: #24A0B5;
   font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 border: 1px solid #24A0B5;
 cursor: pointer;
 }
 
 .next .next{
-  width: 214px;
-  height: 48px;
+  width: 13.375rem;
+  height: 3rem;
   border-radius: 5px;
   gap: 8px;
   /* padding-top: Radius/reg 2;
@@ -353,14 +353,32 @@ cursor: pointer;
   color: #fff;
   font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-size: 1rem;
+line-height: 1.5rem;
 letter-spacing: 0%;
 border: 1px solid #24A0B5;
 background: #24A0B5;
 margin-bottom: 2rem ;
 cursor: pointer;
 }
+
+
+
+
+
+.cards.selected {
+  background-color: #197686;
+  opacity: 1;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 
 
 
@@ -373,4 +391,19 @@ cursor: pointer;
     left: 5rem;
     top:  0;
     }
+  }
+
+  @media screen and (max-width: 1500px){
+    .main-container{
+      margin-top: 10rem;
+    }
+  }
+
+@media screen and (max-width: 500px){
+  .main-container{
+  
+  }
+  .card{
+    margin-top: 50rem auto;
+  }
   }

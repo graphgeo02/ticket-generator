@@ -21,19 +21,22 @@ const BookTickited = () => {
             Step <span className="step"><strong className="levels">3</strong>/3</span>
           </p>
         </div>
-        <div className="progress-bar">
-          <div className="progress-bar-fill"></div>
+        <div className="progress-bar3">
+          <div className="progress-bar-fill3"></div>
         </div>
         <div>
           <p className="book-title">Your Ticket is Booked!</p>
           <p className="book-sub-title">You can download or check your email for a copy.</p>
         </div>
         <div className="ticket-container">
-          {avatarUrl && <img src={avatarUrl} alt="Avatar" className="avatar-image" />}
+          {avatarUrl && <img src={avatarUrl} alt="Avatar" className="avatar-image" 
+          //  onError={(e) => { e.target.src = '/path/to/default-avatar.png'; }}
+           />}
                <div className="event-content">
-                <p className='event-title'>Techember <br/>Fest "25</p> <span><img src={Star}/></span>
+                <p className='event-title'>Techember <br/>Fest "25</p> 
+               
                 <p className='event-text'> 
-                  04 Rumen road, Ikoyi, Lagos<br/>
+                📍04 Rumen road, Ikoyi, Lagos<br/>
                   March 15, 2025 | 7:00 PM
                 </p>
                </div>

@@ -1,4 +1,4 @@
- .progress-bar{
+ .progress-bar2{
     width: 100%;
     height: 10px;
     background: #0E464F;
@@ -6,7 +6,7 @@
     overflow: hidden;
     margin-bottom: 1rem;
 }
-.progress-bar-fill{
+.progress-bar-fill2{
     width: 66.666%;
     height: 100%;
     background: #24A0B5;
@@ -23,11 +23,11 @@
     }
 
 .sub-1{
-    width: 556px;
-    height: 344px;
+    width: 34.75rem;
+    height: 21.5rem;
     border-radius: 24px;
     border-width: 1px;
-    padding: 24px;
+    padding: 1.5rem;
     gap: 32px;
     border: 1px solid #07373F;
     background: #052228;
@@ -35,8 +35,8 @@
 }
 
 .sub-2{
-width: 508px;
-height: 240px;
+width: 31.75rem;
+height: 15rem;
 gap: 10px;
 margin-top: 3rem;
 background-image: url(../../assets/attendeeimages/cloud.png);
@@ -47,8 +47,8 @@ background-image: url(../../assets/attendeeimages/cloud.png);
     margin-bottom: 1.5rem;
 }
 input[type='text'],input[type='email']{
-    width: 556px;
-height: 48px;
+    width: 34.75rem;
+height: 3rem;
 border-radius: 10px;
 border-width: 1px;
 border: 1px solid #07373F;
@@ -60,19 +60,19 @@ margin-bottom: 1rem;
 
 } */
 .card-2{
-    width: 700px;
+    width: 43.75rem;
     /* height: 902px; */
     border-radius: 40px;
     border-width: 1px;
-    padding: 48px;
+    padding: 3rem;
     border: 1px solid white;
     background: #041e23;
     border: 1px solid #0e464f;
     margin: 20px auto;
 }
 .attend-card{
-    width: 700px;
-    height: 1099px;
+    width: 43.75rem;
+    height: 68.6875rem;
     border-radius: 24px;
     border-width: 1px;
     padding: 48px;
@@ -83,15 +83,15 @@ margin-bottom: 1rem;
 label{
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     letter-spacing: 0%;
     color: var(--color-grey-98, #FAFAFA);
 
 }
 textarea{
-    width: 556px;
-height: 127px;
+    width: 34.75rem;
+height: 7.93775rem;
 border-radius: Radius/reg 2;
 border-width: 1px;
 padding: Radius/reg 2;
@@ -112,8 +112,8 @@ display: flex;
 }
 
 .attendee-button .back{
-    width: 270px;
-height: 48px;
+    width: 16.875rem;
+height: 3rem;
 border-radius: 5px;
 border-width: 1px;
 padding-top: Radius/reg 2;
@@ -123,7 +123,7 @@ padding-left: Radius/semi;
 border: 1px solid #24A0B5;
 font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
+font-size: 1rem;
 line-height: 24px;
 letter-spacing: 0%;
 background: transparent;
@@ -131,7 +131,7 @@ color: #24A0B5;
 cursor: pointer;
 }
 .attendee-button .free-ticket{
-    width: 270px;
+    width: 16.875rem;
     height: 48px;
     border-radius: 5px;
     gap: 8px;
@@ -141,7 +141,7 @@ cursor: pointer;
     padding-left: Radius/semi;
     font-family: JejuMyeongjo;
 font-weight: 400;
-font-size: 16px;
+font-size: 1rem;
 line-height: 24px;
 letter-spacing: 0%;
 color: #FFFFFF;
@@ -152,6 +152,22 @@ cursor: pointer;
 #url{
     width: 100%;
 }
+
+
+.image-preview {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .avatar-preview {
+    max-width: 150px;    /* Prevents image from being too wide */
+    max-height: 150px;   /* Prevents image from being too tall */
+    border-radius: 8px;  /* Adds rounded corners for a neat appearance */
+    object-fit: cover;   /* Keeps the image aspect ratio while fitting it within the defined size */
+    border: 1px solid #ddd; /* Optional: Adds a light border around the image */
+  }
+  
+
 
 /*.sub-feature1{
 width: 556px;
