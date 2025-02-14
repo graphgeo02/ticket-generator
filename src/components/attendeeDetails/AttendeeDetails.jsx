@@ -84,7 +84,7 @@ const AttendeeDetails = () => {
                 aria-label="Avatar URL"
                 id='url'
               />
-              {errors.avatarUrl && <p className="error">{errors.avatarUrl}</p>}
+              {errors.avatarUrl && <p className="error" style={{color: 'red'}}>{errors.avatarUrl}</p>}
 
               {isValidImage && (
                 <div className="image-preview">
@@ -106,6 +106,8 @@ const AttendeeDetails = () => {
               value={formData.name} 
               onChange={handleChange} 
               aria-label="Full Name"
+              id='name'
+              placeholder='First name only'
             />
             {errors.name && <p className="error">{errors.name}</p>}
             <label>Enter your email*</label><br />
@@ -116,15 +118,17 @@ const AttendeeDetails = () => {
               value={formData.email} 
               onChange={handleChange} 
               aria-label="Email"
+              id='email'
             />
             {errors.email && <p className="error">{errors.email}</p>}
             <label>About Project*</label><br />
             <textarea 
               name="projectDetails" 
-              placeholder="Briefly describe your project" 
+              placeholder="Text area..." 
               value={formData.projectDetails} 
               onChange={handleChange} 
               aria-label="Project Details"
+              id='textarea'
             ></textarea>
             <div className="attendee-button">
               <button type="button" className="back" onClick={() => navigate('/events')}>Back</button>

@@ -8,42 +8,32 @@
 }
 
 .main-container {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
   place-items: center;
   gap: 20px;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   margin: 0rem auto;
-  /* overflow: auto; */
-  /* border: 1px solid red; */
+
 }
 
 .card {
-  /* flex: 1; */
+
   grid-column: span 1;
-  width: 43.75rem;
-  /* height: 902px; */
+  max-width: 43.75rem;
+
   border-radius: 40px;
   border-width: 1px;
   padding: 3rem;
   border: 1px solid white;
   background: #041e23;
-  border: 1px solid #0e464f;
+  border: 3px solid #0e464f;
   margin: 20px auto;
 }
 
-/* @media screen and (width: 1020px) {
- .main-container{
-    margin: auto;
-    position: absolute;
-    left: 100rem;
-    border: 1px solid red;
-  }
-} */
+
 .inline{
     display: flex;
     align-items: center;
@@ -96,14 +86,14 @@ color: var(--color-grey-98, #FAFAFA);
 
 
 .feature{
-width: 37.76rem;
+max-width: 37.76rem;
 /* height: 726px; */
 border-radius: 32px;
 border-width: 1px;
 gap: 32px;
 padding: 24px;
 background: #08252B;
-border: 1px solid #0E464F;
+border: 3px solid #0E464F;
 }
 .sub-feature1{
 width: 34.75rem;
@@ -125,8 +115,7 @@ backdrop-filter: blur(14px)
 }
 
 .sub-feature1 h6{
-    /* width: 508px;
-    height: 118px; */
+  
     
 font-family: 'Road Rage';
 font-weight: 400;
@@ -188,7 +177,7 @@ border-width: 1px;
 padding: 1rem;
 gap: 16px;
 background: #052228;
-border: 1px solid #07373F;
+border: 3px solid #07373F;
   
 }
 
@@ -204,7 +193,7 @@ border-radius: 8px;
 border-width: 1px;
 padding: 8px;
 gap: 8px;
-border: 1px solid #07373F;
+border: 3px solid #07373F;
 
 
 
@@ -216,7 +205,7 @@ border-radius: Radius/reg 2;
 border-width: 1px;
 padding: 8px;
 gap: 8px;
-border: 1px solid #07373F;
+border: 3px solid #07373F;
 border-radius: 8px;
 }
 
@@ -227,12 +216,12 @@ border-radius: Radius/reg 2;
 border-width: 1px;
 padding: 8px;
 gap: 8px;
-border: 1px solid #07373F;
+border: 3px solid #07373F;
 border-radius: 8px;
 } 
 
 .cards{
-  border: 1px solid #197686;
+  border: 3px solid #197686;
   /* background: #197686; */
   p{
     color: var(--color-grey-98, #FAFAFA);
@@ -290,7 +279,7 @@ select{
 height: 3rem;
 border-radius:  10px;
 border-width: 1px;
-border: 1px solid #07373F;
+border: 3px solid #07373F;
 background: #052228;
 color: var(--color-white-solid, #FFFFFF);
 outline: none;
@@ -300,9 +289,7 @@ cursor: pointer;
 .number{
   padding-left: 5rem;
 }
-/* #myNumberInput{
-padding-left: 1rem;
-} */
+
 
 .number-tickets{
   margin-top: 2rem;
@@ -319,9 +306,9 @@ width: 34.75rem;
 height: 3rem;
 border-radius: 30px;
 border-width: 1px;
-/* padding: 48px; */
+
 background: #041E23;
-border: 1px solid #0E464F;
+border: 3px solid #0E464F;
 margin-top: 2rem ;
 display: flex;
 justify-content: space-around;
@@ -334,10 +321,6 @@ vertical-align: middle;
   height: 3rem;
   border-radius: 5px;
   gap: 8px;
-  /* padding-top: Radius/reg 2;
-  padding-right: Radius/semi;
-  padding-bottom: Radius/reg 2;
-  padding-left: Radius/semi; */
   background: #052228;
   color: #24A0B5;
   font-family: JejuMyeongjo;
@@ -345,7 +328,7 @@ font-weight: 400;
 font-size: 1rem;
 line-height: 1.5rem;
 letter-spacing: 0%;
-border: 1px solid #24A0B5;
+border: 3px solid #24A0B5;
 cursor: pointer;
 }
 
@@ -354,10 +337,7 @@ cursor: pointer;
   height: 3rem;
   border-radius: 5px;
   gap: 8px;
-  /* padding-top: Radius/reg 2;
-  padding-right: Radius/semi;
-  padding-bottom: Radius/reg 2;
-  padding-left: Radius/semi; */
+
 
   color: #fff;
   font-family: JejuMyeongjo;
@@ -365,7 +345,7 @@ font-weight: 400;
 font-size: 1rem;
 line-height: 1.5rem;
 letter-spacing: 0%;
-border: 1px solid #24A0B5;
+border: 3px solid #24A0B5;
 background: #24A0B5;
 margin-bottom: 2rem ;
 cursor: pointer;
@@ -395,7 +375,7 @@ cursor: pointer;
 
 @media screen and (max-width: 1020px){
     .main-container{
-    /* border: 9px solid white; */
+  
     position: absolute;
     left: 5rem;
     top:  0;
@@ -409,9 +389,7 @@ cursor: pointer;
   }
 
 @media screen and (max-width: 500px){
-  .main-container{
   
-  }
   .card{
     margin-top: 50rem auto;
   }

@@ -12,6 +12,9 @@
   .main-container{
     max-width: fit-content;
   }
+  div.card-2{
+    margin-right: 18rem;
+  }
   } 
 
 
@@ -38,4 +41,5 @@
     body{
       overflow-x: hidden;
     }
+    
 }
