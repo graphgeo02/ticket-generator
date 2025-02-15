@@ -47,21 +47,21 @@ const Event = () => {
                 onClick={() => handleBoxClick('regular')}
               >
                 <p>Regular Access<br /> <span>20 left!</span></p>
-                <button className="free">Free</button>
+                <button className="free" id='free'>Free</button>
               </div>
               <div
                 className={`cards card-b box ${selectedTicket === 'vip' ? 'selected' : ''}`}
                 onClick={() => handleBoxClick('vip')}
               >
                 <p>VIP Access<br /> <span>20 left!</span></p>
-                <button className="free">$50</button>
+                <button className="free" id='vip'>$50</button>
               </div>
               <div
                 className={`cards card-c box ${selectedTicket === 'vvip' ? 'selected' : ''}`}
                 onClick={() => handleBoxClick('vvip')}
               >
                 <p>VVIP Access<br /> <span>20 left!</span></p>
-                <button className="free">$150</button>
+                <button className="free" id='vvip'>$150</button>
               </div>
             </div>
           </div>
@@ -76,8 +76,8 @@ const Event = () => {
             ))}
           </select>
           <div className="next">
-            <button className="cancel" onClick={() => redirNext('/')}>Cancel</button>
-            <button className="next" onClick={handleNext}>Next</button>
+            <button className="cancel" id='cancel-btn' onClick={() => redirNext('/')}>Cancel</button>
+            <button className="next"   id='next-btn'  onClick={handleNext}>Next</button>
           </div>
         </div>
       </div>

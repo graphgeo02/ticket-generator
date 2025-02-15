@@ -130,9 +130,9 @@ const AttendeeDetails = () => {
               aria-label="Project Details"
               id='textarea'
             ></textarea>
-            <div className="attendee-button">
-              <button type="button" className="back" onClick={() => navigate('/events')}>Back</button>
-              <button type="submit" className="free-ticket">Get My Free Ticket</button>
+            <div className="attendee-button" id='attendee-button'>
+              <button type="button" id='back-btn' className="back" onClick={() => navigate('/events')}>Back</button>
+              <button type="submit"  id='free-ticket-btn'   className="free-ticket">Get My Free Ticket</button>
             </div>
           </div>
         </form>

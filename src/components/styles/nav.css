@@ -3,9 +3,9 @@
 .nav {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  display: block;
+  display: flex;
   height: 73px;
-  width: 100vw;
+  width: max-content;
 }
 
 nav ul {
@@ -104,13 +104,20 @@ nav a:hover {
 
 @media screen and (max-width: 500px){
   nav ul{
-    display: flex;
+
+    /* display: flex;
     justify-content: space-evenly;
   padding-right: unset;
    max-width: 800px; 
    align-items: center;
-   align-content: center;
-   margin-left: 4rem;
+   align-content: center; */
+
+   /* margin-left: 4rem; */
+
+   position: relative;
+   top: 100%;
+   bottom: -100%;
+   
 }
 
 .group-middle{
@@ -119,6 +126,13 @@ nav a:hover {
 
 section .main-container, div.card, div.card-1, div.card-3{
   margin-right: 18rem;
+ 
   padding-bottom: -19rem;
 }
+}
+
+@media screen and (max-width: 1239px){
+  nav ul{
+    display: none;
+  }
 }
